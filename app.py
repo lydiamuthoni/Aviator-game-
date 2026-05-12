@@ -23,7 +23,7 @@ CORS(app, supports_credentials=True)
 # MONGODB CONNECTION
 # ============================================
 # Replace with your MongoDB connection string
-MONGO_URI = os.environ.get('MONGO_URI', 'mongodb://localhost:27017/')
+MONGO_URI = os.environ.get('MONGO_URI', 'mongodb+srv://Sunny:<DRpM7nLo6aVVSSxs>@cluster0.amkty7g.mongodb.net/?appName=Cluster0')
 
 try:
     client = MongoClient(MONGO_URI)
